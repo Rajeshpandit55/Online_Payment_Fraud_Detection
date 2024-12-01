@@ -2,6 +2,8 @@
 
 This project implements an **Online Payment Fraud Detection System** using Machine Learning (ML) algorithms. The system leverages multiple ML models to detect fraudulent transactions based on a dataset, using Python, Flask, and various ML libraries. The objective is to build a reliable fraud detection system that can classify online payments as fraudulent or non-fraudulent.
 
+![UI of Online Payment Fraud Detection](onlineFraudDetectionImage.png)
+
 ## Features
 
 - **Fraud Detection**: Detects fraudulent transactions based on historical transaction data.
