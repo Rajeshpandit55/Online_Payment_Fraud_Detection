@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title class="title">Online Payments Fraud Detection</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+   
+    <div class="input">
+        <h1 class="title">Online Payments Fraud Detection</h1>
+        <form class="form-data" method="post" action="/predict">
+
+                <label> Select Type </label>
+                <select name="type" type="string" id="stock" >
+                    <option value="none" selected disabled hidden>Select an Option</option>
+                    <option value="CASH_OUT"> CASH_OUT
+                    </option>
+                    <option value="PAYMENT"> PAYMENT
+                    </option>
+                    <option value="CASH_IN"> CASH_IN
+                    </option>
+                    <option value="TRANSFER"> TRANSFER
+                    </option>
+                    <option value="DEBIT"> DEBIT
+                    </option>
+
+                </select>
+                <br/>
+ 
+
+            <label for="stock">Amount:</label>
+            <input type="integer" id="stock" name="amount" placeholder="Amount"><br/>
+
+            <label for="stock">OldbalanceOrg:</label>
+            <input type="integer" id="stock" name="oldbalanceOrg" placeholder="OldbalanceOrg"><br/>
+
+            <label for="stock">NewbalanceOrig:</label>
+            <input type="integer" id="stock" name="newbalanceOrig" placeholder="NewbalanceOrig"><br/>
+
+            <input type="submit" value="Submit">
+        </form>
+   
+    </div>
+
+   <div class="prediction">
+    <p>Fraud Detection: 
+        {% if prediction %} <h2> {{ prediction }}</h2>
+        
+    {% endif %}
+    </p>
+   </div>
+
+   <p>Created by Rajesh Pandit BHU 2024 -Minor Project Under Anshul Sir</p>
+    
+
+</body>
+
+
+</html>
