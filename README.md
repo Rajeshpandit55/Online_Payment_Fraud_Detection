@@ -29,17 +29,17 @@ This project implements an **Online Payment Fraud Detection System** using Machi
 
 ## Installation
 
-###1. Clone this repository:
+### 1. Clone this repository:
    ```bash
    git clone https://github.com/yourusername/online-payment-fraud-detection.git
    cd online-payment-fraud-detection.
 ```
-###2. Create a virtual environment (optional but recommended):
+### 2. Create a virtual environment (optional but recommended):
    ```bash
   python -m venv venv
   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
   ```
-###3.Running the Flask App:
+### 3.Running the Flask App:
 ```bash
 python app.py
 ```
