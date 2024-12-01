@@ -49,7 +49,7 @@ The system automatically trains multiple ML models and compares their performanc
 You can input transaction data to get predictions for fraud detection.
 
 
-Comparative Study
+***Comparative Study***
 The system uses the following machine learning algorithms and compares their performance:
 
 Decision Tree: A non-linear model that splits the data into branches to make predictions.
@@ -62,7 +62,7 @@ Neural Network: A deep learning model designed to recognize patterns in large da
 Support Vector Machine (SVM): A model that finds the hyperplane that best separates classes in the feature space.
 
 
-Evaluation Metrics
+***Evaluation Metrics***
 Accuracy: The ratio of correctly predicted transactions to the total transactions.
 Precision: The ratio of true positive predictions to all positive predictions.
 Recall: The ratio of true positive predictions to all actual fraudulent transactions.
@@ -70,6 +70,6 @@ F1-Score: The harmonic mean of precision and recall.
 ROC-AUC: Measures the area under the receiver operating characteristic curve.
 
 
-Conclusion
+***Conclusion***
 This project provides a comparative analysis of multiple machine learning algorithms for detecting online payment fraud, helping identify the most effective model based on various evaluation metrics.
 
