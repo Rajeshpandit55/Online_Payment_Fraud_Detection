@@ -16,6 +16,12 @@ This project implements an **Online Payment Fraud Detection System** using Machi
   - Support Vector Machine (SVM)
 - **Model Evaluation**: Evaluation of models using key metrics like accuracy, precision, recall, F1-score, and ROC-AUC.
 
+- ## Best Results
+
+- The best result achieved was **99% accuracy**, obtained by using the **Logistic Regression** and **Decision Tree** models for fraud detection.
+- The comparative study shows that **Logistic Regression** and **Decision Tree** outperformed other models such as **Random Forest**, **KNN**, **Gradient Boosting**, **Naive Bayes**, **Neural Networks**, and **SVM**.
+
+
 ## Tech Stack
 
 - **Backend**: Python
